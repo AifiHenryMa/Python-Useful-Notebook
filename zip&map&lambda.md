@@ -1,6 +1,6 @@
 # zip
 zip函数接受任意多个（包括0个和1个）序列作为参数，合并后返回一个tuple列表, 请看示例：
-```python
+```Python
 a = [1, 2, 3]
 b = [4, 5, 6]
 ab = zip(a, b)
@@ -11,7 +11,7 @@ print(list(ab))  # 需要加list来可视化这个功能
 ```
 
 zip中运算
-```python
+```Python
 a = [1, 2, 3]
 b = [4, 5, 6]
 ab = zip(a, b)
@@ -27,12 +27,8 @@ for i, j in zip(a, b):
 
 # lambda
 lambda定义一个简单的函数，实现简化代码的功能，看代码会更好理解。
-
-
 def fun(x, y): return x + y, 冒号前的x, y为自变量，冒号后x + y为具体运算。
-
-
-```python
+```Python
 
 
 def fun(x, y): return x + y
@@ -51,7 +47,7 @@ y=6
 
 # map
 map是把函数和参数绑定在一起。
-```python
+```Python
 >> > def fun(x, y):
     return (x + y)
 >> > list(map(fun, [1], [2]))
