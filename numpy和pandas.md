@@ -1640,7 +1640,7 @@ print(res)
 # K2  A2  B2  C2  D2
 ```
 
-###3.8.6、解决overlapping的问题
+### 3.8.6、解决overlapping的问题
 ```Python
 import pandas as pd
 
